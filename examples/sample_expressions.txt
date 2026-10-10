@@ -1,0 +1,14 @@
+# Run these one at a time from the project root:
+run.bat --all "3 + 4 * 5"
+run.bat --ir "(2 + 3) * 4"
+run.bat --optimize "(10 - 2) * (3 + 1)"
+run.bat --result "20 / 5 / 2"
+
+# Error examples (these should be rejected):
+run.bat --result "8 / 0"
+run.bat --result "4 +"
+
+# Modulo operator
+17 % 5             # result: 2
+-17 % 5            # result: -2 (C++ remainder semantics)
+17 % 5 * 3 + 1     # result: 7

@@ -1,0 +1,21 @@
+# Compiled binaries
+bin/
+*.exe
+*.obj
+*.o
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated test reports
+reports/failures.jsonl
+
+# Temporary files
+*.tmp
+*.log
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
