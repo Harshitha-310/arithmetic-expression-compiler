@@ -174,11 +174,6 @@ MiniCompiler_Verification/
 - Random differential tests are not a formal proof and may miss defects.
 - Useful future improvements: property-based AST generation, test-case shrinking, more systematic overflow tests, sanitizer runs, and a compiler-specific test corpus.
 
-## Resume use
-
-Run the project, understand the parser and optimizer, and add a feature you can explain before listing it. Describe it accurately as a **mini arithmetic-expression compiler and differential-testing harness**, not as a complete C/C++ compiler.
-
-Suggested resume bullets (only use after verifying the behavior yourself):
 
 - Implemented a C++17 recursive-descent parser and AST evaluator for arithmetic expressions, with operator precedence, unary operators, overflow checks, and division-by-zero handling.
 - Generated three-address intermediate representation and implemented conservative constant folding.
