@@ -1,4 +1,4 @@
-# Arithmetic Expression Compiler & Verification Framework (v1.3)
+# Arithmetic Expression Compiler & Verification Framework 
 
 A small arithmetic-expression compiler and verification harness built with **C++17 and Python 3**. It has no Java, ANTLR, Python package, or third-party C++ library dependency.
 
